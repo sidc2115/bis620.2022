@@ -17,8 +17,7 @@ are in three dimensions. The package can also be used to create spectral
 signatures using the modulus of the Fourier coefficients in the
 different dimensions.
 
-[Coverage
-Page](https://github.com/sidc2115/bis620.2022/actions/workflows/lint.yaml)
+[Coverage Page](https://codecov.io/gh/sidc2115/bis620.2022)
 
 [Lint
 Results](https://github.com/sidc2115/bis620.2022/actions/workflows/lint.yaml)
