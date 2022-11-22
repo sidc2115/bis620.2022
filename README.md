@@ -8,6 +8,7 @@
 [![R-CMD-check](https://github.com/sidc2115/bis620.2022/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sidc2115/bis620.2022/actions/workflows/R-CMD-check.yaml)
 [![lint](https://github.com/sidc2115/bis620.2022/actions/workflows/lint.yaml/badge.svg)](https://github.com/sidc2115/bis620.2022/actions/workflows/lint.yaml)
 [![test-coverage](https://github.com/sidc2115/bis620.2022/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/sidc2115/bis620.2022/actions/workflows/test-coverage.yaml)
+[![codecov](https://codecov.io/gh/sidc2115/bis620.2022/branch/main/graph/badge.svg?token=E3EZ0R3IMQ)](https://codecov.io/gh/sidc2115/bis620.2022)
 <!-- badges: end -->
 
 The goal of bis620.2022 is to analyse the accelerometry data. The
