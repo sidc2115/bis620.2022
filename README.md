@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/sidc2115/bis620.2022/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sidc2115/bis620.2022/actions/workflows/R-CMD-check.yaml)
+[![lint](https://github.com/sidc2115/bis620.2022/actions/workflows/lint.yaml/badge.svg)](https://github.com/sidc2115/bis620.2022/actions/workflows/lint.yaml)
+[![test-coverage](https://github.com/sidc2115/bis620.2022/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/sidc2115/bis620.2022/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
 The goal of bis620.2022 is to analyse the accelerometry data. The
@@ -13,6 +15,12 @@ analysis is by way of making time-series plots from the data. The plots
 are in three dimensions. The package can also be used to create spectral
 signatures using the modulus of the Fourier coefficients in the
 different dimensions.
+
+[Coverage
+Page](https://github.com/sidc2115/bis620.2022/actions/workflows/lint.yaml)
+
+[Lint
+Results](https://github.com/sidc2115/bis620.2022/actions/workflows/lint.yaml)
 
 ## Installation
 
