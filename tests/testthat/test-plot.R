@@ -28,10 +28,9 @@ test_that(
   "The accel_plot() returns a ggplot object with frequency column",
   {
     data(ukb_accel)
-    x<-ukb_accel
-    names(x)[names(x)=="time"]<-"freq"
+    x <- ukb_accel
+    names(x)[names(x) == "time"] <- "freq"
     p <-  accel_plot(x[1:100, ])
     expect_true(inherits(p, "gg"))
   }
 )
-
