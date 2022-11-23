@@ -1,5 +1,5 @@
 test_that(
-  "The accel_plot() returns a ggplot object.",
+  "The accel_plot() returns a ggplot object with time column",
   {
     data(ukb_accel)
     p <-  accel_plot(ukb_accel[1:100, ])
@@ -23,3 +23,15 @@ test_that(
     expect_doppelganger("first-100-samples", p)
   }
 )
+
+test_that(
+  "The accel_plot() returns a ggplot object with frequency column",
+  {
+    data(ukb_accel)
+    x<-ukb_accel
+    names(x)[names(x)=="time"]<-"freq"
+    p <-  accel_plot(x[1:100, ])
+    expect_true(inherits(p, "gg"))
+  }
+)
+
